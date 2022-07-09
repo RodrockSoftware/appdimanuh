@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+
+            android:src="@drawable/bonita_dimanuh" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="T-Shirt - Bonita"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="R$34,90"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"/>
+        <Button
+            android:background="@color/ic_dimanuh_background"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:text="COMPRAR"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESCRIÇÃO"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="As t-shirts da Dimanuh Store são as melhores que você já viu e vai sentir o tecido 100% algodão e mais a sua identidade estampada em únicos e exclusivos designs."
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
